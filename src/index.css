@@ -6,3 +6,12 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+.bg-gray {
+  background: gray;
+}
+
+.title {
+  text-transform: uppercase;
+  color: red;
+}
