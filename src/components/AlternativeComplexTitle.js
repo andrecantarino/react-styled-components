@@ -18,7 +18,7 @@ const Wrapper = styled(ComplexTitle)`
   .underline {
     width: 5rem;
     height: 0.25rem;
-    background: #645cff;
+    background: var(--primary);
     margin: 0 auto;
   }
 `
