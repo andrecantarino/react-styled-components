@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { Button } from "@material-ui/core";
 
 export const DefaultButton = styled.button`
   background: #645cff;
@@ -18,4 +19,8 @@ export const HipsterButton = styled(DefaultButton)`
   background: transparent;
   color: #645cff;
   border: 1px solid #645cff;
+`
+export const StyledMaterialButton = styled(Button)`
+  text-transform: capitalize;
+  background-color: red;
 `

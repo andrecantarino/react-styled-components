@@ -1,11 +1,7 @@
 import styled from "styled-components";
 import BasicTitle from "./components/BasicTitle";
-import { DefaultButton, HipsterButton } from "./components/Buttons";
 import { Button } from "@material-ui/core";
-
-const StyledBtn = styled(Button)`
-  text-transform: capitalize;
-`
+import { DefaultButton, HipsterButton, StyledMaterialButton } from "./components/Buttons";
 
 function App() {
   return (
@@ -15,7 +11,7 @@ function App() {
       <DefaultButton>Default button</DefaultButton>
       <HipsterButton>Hipster button</HipsterButton>
       <Button color='primary' variant='contained'>Material button</Button>
-      <StyledBtn color='primary' variant='contained'>Styled Material button</StyledBtn>
+      <StyledMaterialButton color='primary' variant='contained'>Styled Material button</StyledMaterialButton>
     </div>
   );
 }
