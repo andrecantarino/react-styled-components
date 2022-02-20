@@ -2,16 +2,24 @@ import styled from "styled-components";
 import BasicTitle from "./components/BasicTitle";
 import { Button } from "@material-ui/core";
 import { DefaultButton, HipsterButton, StyledMaterialButton } from "./components/Buttons";
+import ComplexTitle from "./components/ComplexTitle";
+import Random from "./components/Random";
 
 function App() {
   return (
     <div style={{ padding: '2rem' }}>
-      <BasicTitle>Basic Title</BasicTitle>
-      <BasicTitle special>Basic Title special</BasicTitle>
-      <DefaultButton>Default button</DefaultButton>
-      <HipsterButton>Hipster button</HipsterButton>
-      <Button color='primary' variant='contained'>Material button</Button>
-      <StyledMaterialButton color='primary' variant='contained'>Styled Material button</StyledMaterialButton>
+      <div>
+        <BasicTitle>Basic Title</BasicTitle>
+        <BasicTitle special>Basic Title special</BasicTitle>
+        <DefaultButton>Default button</DefaultButton>
+        <HipsterButton>Hipster button</HipsterButton>
+        <Button color='primary' variant='contained'>Material button</Button>
+        <StyledMaterialButton color='primary' variant='contained'>Styled Material button</StyledMaterialButton>
+      </div>
+      <div style={{ padding: '2rem' }}>
+        <ComplexTitle title='more complex title'/>
+        <Random />
+      </div>
     </div>
   );
 }
