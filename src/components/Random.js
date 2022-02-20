@@ -14,7 +14,7 @@ const Wrapper = styled.div`
     width: 5rem;
     height: 0.5rem;
     background: red;
-    margin: 4rem auto;
+    margin: 4rem;
   }
 `
 

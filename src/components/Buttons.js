@@ -20,6 +20,7 @@ export const HipsterButton = styled(DefaultButton)`
   color: #645cff;
   border: 1px solid #645cff;
 `
+
 export const StyledMaterialButton = styled(Button)`
   text-transform: capitalize;
   background-color: red;
