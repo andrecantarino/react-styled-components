@@ -3,6 +3,7 @@ import BasicTitle from "./components/BasicTitle";
 import { Button } from "@material-ui/core";
 import { DefaultButton, HipsterButton, StyledMaterialButton } from "./components/Buttons";
 import ComplexTitle from "./components/ComplexTitle";
+import AlternativeComplexTitle from "./components/AlternativeComplexTitle";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       </div>
       <div style={{ padding: '2rem' }}>
         <ComplexTitle title='more complex title'/>
+        <AlternativeComplexTitle title='alternative complex title' />
       </div>
     </div>
   );
