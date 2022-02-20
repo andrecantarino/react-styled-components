@@ -1,13 +1,14 @@
 import styled from "styled-components";
 import BasicTitle from "./components/BasicTitle";
-import { DefaultButton } from "./components/Buttons";
+import { DefaultButton, HipsterButton } from "./components/Buttons";
 
 function App() {
   return (
     <div style={{ padding: '2rem' }}>
-      <BasicTitle special>styled components</BasicTitle>
-      <BasicTitle>styled components</BasicTitle>
-      <DefaultButton>Click me</DefaultButton>
+      <BasicTitle>Basic Title</BasicTitle>
+      <BasicTitle special>Basic Title special</BasicTitle>
+      <DefaultButton>Default button</DefaultButton>
+      <HipsterButton>Hipster button</HipsterButton>
     </div>
   );
 }
