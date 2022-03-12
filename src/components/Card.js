@@ -21,11 +21,25 @@ const StyledCard = styled.article`
   max-width: 300px;
   background-color: var(--white);
   border-radius: 0.25rem;
-  img{
+  img {
     width: 100%;
     border-top-left-radius: 0.25rem;
     border-top-right-radius: 0.25rem;
   }
+  footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2rem;
+    h4 {
+      text-transform: capitalize;
+      color: red;
+    }
+    p {
+      color: var(--primary);
+      font-weight: 700;
+    }
+  }
 `
 
-export default Card;
+export default Card
