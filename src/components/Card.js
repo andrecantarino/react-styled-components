@@ -1,4 +1,4 @@
-import React from from 'react';
+import React from 'react';
 import styled from 'styled-components'
 
 const Card = () => {
@@ -16,6 +16,16 @@ const Card = () => {
   )
 }
 
-const StyledCard = styled.article
+const StyledCard = styled.article`
+  width: 90vw;
+  max-width: 300px;
+  background-color: var(--white);
+  border-radius: 0.25rem;
+  img{
+    width: 100%;
+    border-top-left-radius: 0.25rem;
+    border-top-right-radius: 0.25rem;
+  }
+`
 
 export default Card;
