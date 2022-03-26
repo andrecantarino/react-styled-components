@@ -17,7 +17,16 @@ const GlobalStyles = createGlobalStyle`
     background-color: #f2f4f8;
   }
 
+  .text {
+    color: var(--primary);
+  }
+
   .btn {
+    background-color: var(--primary);
+    color: var(--white);
+  }
+
+  /* .btn {
     background: #645cff;
     color: #fff;
     border: none;
@@ -28,7 +37,7 @@ const GlobalStyles = createGlobalStyle`
     display: block;
     width: 200px;
     margin: 1rem auto;
-  }
+  } */
 `
 export default GlobalStyles;
 
